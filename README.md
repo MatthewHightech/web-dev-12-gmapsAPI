@@ -8,10 +8,8 @@ Project: https://web-dev-maps-project.herokuapp.com/
 # Important things!!! PLEASE READ!!
 
 1. IGNORE Files
-- server.js
-- package.json
-- package-lock.json
-- Folder* Node_modules
+- index.php
+
 This is just to run the website online
 
 2. Here are some links that will also help you with various requirments of the project. 
