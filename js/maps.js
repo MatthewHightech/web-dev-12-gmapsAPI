@@ -130,4 +130,4 @@ function directions(id) {
         }
     });
     directionsRenderer.setMap(map);
-} // directions
+} // directionss
