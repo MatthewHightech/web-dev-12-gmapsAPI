@@ -1,10 +1,6 @@
 # Project Outline
-Using the Google Maps API, show a map of your local area, with your location as a blue marker.
+Using the Google Maps API, show a map of your local area, with your location as a blue marker. Show the 3 restaurants in a 3km radius with the highest star rating with a yellow marker and show the name + rating of each restaurant.   
 
-EXTRA:
-
-1. Show the 3 restaurants in a 3km radius with the highest star rating with a yellow marker and show the name + rating of each restaurant.   
-2. Add a button for each restaurant that shows directions from you to the restaurant. 
 
 # View Example of Project (Directions are not working) 
 Project: 

@@ -3,8 +3,8 @@ var currentLocation;
 
 var restaurantMarkers = new Array(); 
    
-var directionsService = new google.maps.DirectionsService();
-var directionsRenderer = new google.maps.DirectionsRenderer();
+//var directionsService = new google.maps.DirectionsService();
+//var directionsRenderer = new google.maps.DirectionsRenderer();
 
 function initMap() {
 
@@ -91,7 +91,7 @@ function plotRestaurants() {
                 rating.appendChild(textA);
                 rating.className = "ratingList";
                 ratingsDiv.appendChild(rating);//to show on myView 
-
+/*
                 var direction = document.createElement("BUTTON");  //<button> element
                 var textB = document.createTextNode(results[i].name); // Create a text node
                 direction.appendChild(textB);
@@ -99,6 +99,7 @@ function plotRestaurants() {
                 direction.addEventListener('click', function(){ directions(this.id)});
                 direction.className = "restaurantButton";
                 directionsDiv.appendChild(direction);//to show on myView 
+                */
             } // for
         }
     } // callback
@@ -107,6 +108,7 @@ function plotRestaurants() {
     service.nearbySearch(request, callback);
 } // plotMeetSpots
 
+/*
 function directions(id) { 
 
     alert("Id:" + id); 
@@ -131,3 +133,4 @@ function directions(id) {
     });
     directionsRenderer.setMap(map);
 } // directionss
+*/
