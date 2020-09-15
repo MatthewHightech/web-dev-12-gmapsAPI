@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- ENGLISH -->
+<html lang="en">
+	<!-- HEAD -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Maps API Project</title>
+
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<!-- BODY -->
+    <body onload="loadPage()">
+        <h1>Google Maps API Project</h1>
+
+        <div id="map"></div>
+        <div id="ratings"></div>
+        <div id="directions"></div>
+        
+        <!-- ADD STATIC API KEY HERE: Take note about "libraries=places" You NEED this for the restaurants request to work -->
+		<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANm027_WDDizQ_TXnCIIwLIdp1FSous58&libraries=places&callback=initMap"></script>
+        <!-- ADD JS FILES HERE 
+        WD: AIzaSyAZE6AGOzXHkpE_Rd--SHTwMM98Aj6KvzU
+        MM: AIzaSyANm027_WDDizQ_TXnCIIwLIdp1FSous58
+        -->
+        <script src="js/main.js"></script>
+        <script src="js/maps.js"></script>
+
+    </body>
+</html>
