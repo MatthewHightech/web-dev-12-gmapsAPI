@@ -7,10 +7,8 @@ Project: https://web-dev-maps-project.herokuapp.com/
 
 # Important things!!! PLEASE READ!!
 
-1. IGNORE Files
-- index.php
-
-This is just to run the website online
+1. IGNORE File
+- index.php: This is just to run the website online and store the APIKEY in an environment variable. Your api link can stay on the html page since your site will not be live. 
 
 2. Here are some links that will also help you with various requirments of the project. 
 - Initilizing the map: https://developers.google.com/maps/documentation/javascript/adding-a-google-map?hl=en_US  
